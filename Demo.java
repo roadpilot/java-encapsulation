@@ -10,12 +10,12 @@ public class Demo {
     //     System.out.println(item.size);
     // }
     public static void main(String[] args) {
-        ExampleConstants constx = new ExampleConstants();
-        System.out.println(constx.COLUMNS);
-        System.out.println(constx.TIMEOUT);
-        System.out.println(constx.MAX_CONNECTIONS);
-        System.out.println(constx.PROTOCOL);
-        System.out.println(constx.METHOD);
+        // ExampleConstants constx = new ExampleConstants();
+        System.out.println(ExampleConstants.COLUMNS);
+        System.out.println(ExampleConstants.TIMEOUT);
+        System.out.println(ExampleConstants.MAX_CONNECTIONS);
+        System.out.println(ExampleConstants.PROTOCOL);
+        System.out.println(ExampleConstants.METHOD);
         
     }
 
