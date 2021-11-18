@@ -13,6 +13,10 @@ public class PromotionCasting {
         long num2 = 66666;
         long num3 = num1 * num2; // promotion will look only at rightmost side of equation
         System.out.println(num3);
+
+        // casting - avoid when data won't fit
+        int possibleLoss = (int)num3;
+        System.out.println("lost from casting: " + possibleLoss);
     }
     
 }
