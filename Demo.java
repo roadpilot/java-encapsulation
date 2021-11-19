@@ -1,7 +1,7 @@
 public class Demo {
     public static void main(String[] args) {
-        String sNum = "150";
-        int intNum = Integer.parseInt(sNum);
+        String sNum = "1.50";
+        double intNum = Double.parseDouble(sNum);
         System.out.println(intNum * 2);
     }
     // public static void main(String[] args){
