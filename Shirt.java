@@ -1,5 +1,3 @@
-import javax.rmi.ssl.SslRMIClientSocketFactory;
-
 public class Shirt {
     private String description = "--description required--";
     private char colorCode = 'U';
@@ -11,15 +9,15 @@ public class Shirt {
         setPrice(price);
     }
 
-    public Shirt(char newCode, double price, String newDescription) {
+    public Shirt(char colorCode, double price, String newDescription) {
         this(colorCode, price); // calls the other constructor without DRY'ing' the tasks
         setDescription(newDescription);
     }
 
     // "getter" methods allowing access to value of private variable without allowing access to variable
-    public char getColorCode(){
-        return colorCode;
-    }
+    // public char getColorCode(){
+    //     return colorCode;
+    // }
 
     // "setter" methods allowing changing value of private variable without allowing access to variable
     public void setColorCode(char newCode){
