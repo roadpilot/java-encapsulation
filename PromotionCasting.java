@@ -1,7 +1,7 @@
 public class PromotionCasting {
     public static void main(String[] args) {
         int i = 3;
-        long l = i;
+        // long l = i;
         // i gets promoted to "long" by assignment
         double d = i;
         // i gets promoted to "double" by assignment - happens at compiler
