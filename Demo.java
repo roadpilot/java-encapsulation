@@ -1,8 +1,16 @@
+import java.beans.Customizer;
+
 public class Demo {
     public static void main(String[] args) {
-        String sNum = "true";
-        Boolean bNum = Boolean.parseBoolean(sNum);
-        System.out.println(bNum);
+        Customer cust = new Customer();
+
+        Item shirt = new Item();
+        System.out.println(shirt.getPrice());
+
+        //shirt.price = 10.00; this won't work because price is private
+        shirt.setPrice(10.00, cust);
+
+        System.out.println(shirt.getPrice());
     }
     // public static void main(String[] args){
     //     System.out.println(ItemSizes.listAllSizes());
@@ -15,6 +23,9 @@ public class Demo {
     //     System.out.println(item.size);
     // }
     /*
+        String sNum = "true";
+        Boolean bNum = Boolean.parseBoolean(sNum);
+        System.out.println(bNum);
         // ExampleConstants constx = new ExampleConstants();
         System.out.println(ExampleConstants.COLUMNS);
         System.out.println(ExampleConstants.TIMEOUT);

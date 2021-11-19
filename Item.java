@@ -12,7 +12,7 @@ public class Item {
         }
     }
 
-    public getPrice() {
+    public String getPrice() {
         return String.format("$%.2f", price);        
     }
 }
