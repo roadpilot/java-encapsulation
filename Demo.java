@@ -1,12 +1,12 @@
 public class Demo {
     public static void main(String[] args) {
-        Shirt theShirt = new Shirt();
+        // Shirt theShirt = new Shirt();
 
-        theShirt.setColorCode('R');
-        System.out.println("color code: " + theShirt.getColorCode());
+        // theShirt.setColorCode('R');
+        // System.out.println("color code: " + theShirt.getColorCode());
 
-        theShirt.setColorCode('X');
-        System.out.println("color code: " + theShirt.getColorCode());
+        // theShirt.setColorCode('X');
+        // System.out.println("color code: " + theShirt.getColorCode());
     }
     // public static void main(String[] args){
     //     System.out.println(ItemSizes.listAllSizes());
