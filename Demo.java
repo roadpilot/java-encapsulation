@@ -1,8 +1,8 @@
 public class Demo {
     public static void main(String[] args) {
-        String sNum = "1.50";
-        double intNum = Double.parseDouble(sNum);
-        System.out.println(intNum * 2);
+        String sNum = "true";
+        Boolean bNum = Boolean.parseBoolean(sNum);
+        System.out.println(bNum);
     }
     // public static void main(String[] args){
     //     System.out.println(ItemSizes.listAllSizes());
