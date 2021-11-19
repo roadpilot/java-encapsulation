@@ -1,16 +1,12 @@
-import java.beans.Customizer;
-
 public class Demo {
     public static void main(String[] args) {
-        Customer cust = new Customer();
+        Shirt theShirt = new Shirt();
 
-        Item shirt = new Item();
-        System.out.println(shirt.getPrice());
+        theShirt.setColorCode('R');
+        System.out.println("color code: " + theShirt.getColorCode());
 
-        //shirt.price = 10.00; this won't work because price is private
-        shirt.setPrice(10.00, cust);
-
-        System.out.println(shirt.getPrice());
+        theShirt.setColorCode('X');
+        System.out.println("color code: " + theShirt.getColorCode());
     }
     // public static void main(String[] args){
     //     System.out.println(ItemSizes.listAllSizes());
